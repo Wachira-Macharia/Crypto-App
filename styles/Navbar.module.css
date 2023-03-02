@@ -1,0 +1,33 @@
+/* styles/Navbar.module.css */
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: #eb6440;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navitems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .navitems p {
+    font-size: 1.5rem;
+  }
+  
+  .navlinks {
+    display: flex;
+  }
+  
+  .navlinks a {
+    margin-left: 20px;
+  }

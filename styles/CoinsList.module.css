@@ -1,0 +1,41 @@
+/* styles/CoinsList.module.csss */
+
+.coinsContainer {
+    max-width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: white;
+    margin: 1rem;
+    padding: 0 20px;
+    text-align: left;
+    color: #497174;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .cardTitle {
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #d0d0d0;
+  }
+  
+  .cardTitle img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .cardContent {
+    border-bottom: 1px solid #d0d0d0;
+  }
+  
+  .actionLink {
+    color: black;
+  }
